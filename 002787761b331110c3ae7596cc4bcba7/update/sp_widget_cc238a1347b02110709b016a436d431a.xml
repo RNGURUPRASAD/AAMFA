@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>mfa_menu</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>MFA Menu</name>
+        <option_schema/>
+        <public>true</public>
+        <roles>new user,x_945142_aamfa.mfa_admin</roles>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-09 06:45:37</sys_created_on>
+        <sys_id>cc238a1347b02110709b016a436d431a</sys_id>
+        <sys_mod_count>33</sys_mod_count>
+        <sys_name>MFA Menu</sys_name>
+        <sys_package display_value="Authentcation Authorisation MFA" source="002787761b331110c3ae7596cc4bcba7">002787761b331110c3ae7596cc4bcba7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Authentcation Authorisation MFA">002787761b331110c3ae7596cc4bcba7</sys_scope>
+        <sys_update_name>sp_widget_cc238a1347b02110709b016a436d431a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-10 04:59:22</sys_updated_on>
+        <template><![CDATA[<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<title>Pizza</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+</style>
+<body>
+<!-- Start Content -->
+<div id="home" class="w3-content">
+
+<!-- Navbar (Sits on top) -->
+<div class="w3-middle w3-bar w3-xlarge w3-black w3-opacity-min">
+<a href="#home" class="w3-bar-item w3-button">HOME</a>
+<a href="#menu" class="w3-bar-item w3-button">MENU</a>
+<a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+<a href="#contact" class="w3-bar-item w3-button">CONTACT</a>
+</div>
+  
+<!-- Header image -->
+<div style="height:800px;background-image:url('https://images.rawpixel.com/image_600/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTY2MTU3Ny13aWtpbWVkaWEtaW1hZ2Uta293YXBlZWouanBn.jpg');background-size:cover"
+class="w3-display-container w3-grayscale-min">
+<div class="w3-display-bottomleft">
+  <span class="w3-tag w3-xlarge">Open from 10am to 8pm</span>
+</div>
+<div class="w3-display-middle w3-center">
+  <span class="w3-text-white" style="font-size:100px">Healthy<br>FOOD</span>
+  <p><a href="https://dev27317.service-now.com/sp/?id=mfa_menulink"class="w3-button w3-xxlarge w3-black">Let me see the menu</a></p>
+</div>
+</div>
+
+<!-- End Content -->
+</div>
+</body>
+</html>
+]]></template>
+    </sp_widget>
+</record_update>

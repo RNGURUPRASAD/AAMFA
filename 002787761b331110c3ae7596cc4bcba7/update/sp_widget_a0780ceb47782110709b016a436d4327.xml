@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>mfa_about</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>MFA About</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-09 16:28:06</sys_created_on>
+        <sys_id>a0780ceb47782110709b016a436d4327</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>MFA About</sys_name>
+        <sys_package display_value="Authentcation Authorisation MFA" source="002787761b331110c3ae7596cc4bcba7">002787761b331110c3ae7596cc4bcba7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Authentcation Authorisation MFA">002787761b331110c3ae7596cc4bcba7</sys_scope>
+        <sys_update_name>sp_widget_a0780ceb47782110709b016a436d4327</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-09 16:33:55</sys_updated_on>
+        <template><![CDATA[<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<title>Pizza</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+</style>
+<body>
+<!-- Start Content -->
+<div id="home" class="w3-content">
+
+<!-- About -->
+<div id="about" class="w3-container w3-red w3-grayscale w3-xlarge w3-padding-64">
+<h1 class="w3-center w3-jumbo">About</h1>
+<p>The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<p><strong>The Chef?</strong> Mr. Italiano himself<img src="https://www.w3schools.com/w3images/chef.jpg" style="width:150px" class="w3-circle w3-right" alt="Chef"></p>
+<p>We are proud of our interiors.</p>
+<p class="w3-padding-16 w3-stretch">
+<img src="https://www.w3schools.com/w3css/img_restaurant.jpg" style="width:100%" alt="Restaurant">
+</p>
+<h1><b>Opening Hours</b></h1>
+<div class="w3-row">
+<div class="w3-half">
+  <p>Mon & Tue CLOSED</p>
+  <p>Wednesday 10.00 AM - 08.00 PM</p>
+  <p>Thursday 10:00 AM - 08:00 PM</p>
+</div>
+<div class="w3-half">
+  <p>Friday 10:00 AM - 12:30 PM</p>
+  <p>Saturday 10:00 AM - 07:30 PM</p>
+  <p>Sunday Closed</p>
+</div>
+</div>    
+</div>
+
+<!-- End Content -->
+</div>
+</body>
+</html>]]></template>
+    </sp_widget>
+</record_update>

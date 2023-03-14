@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>mfa_contact</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>MFA Contact</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-09 16:37:16</sys_created_on>
+        <sys_id>328a88af47782110709b016a436d43dc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>MFA Contact</sys_name>
+        <sys_package display_value="Authentcation Authorisation MFA" source="002787761b331110c3ae7596cc4bcba7">002787761b331110c3ae7596cc4bcba7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Authentcation Authorisation MFA">002787761b331110c3ae7596cc4bcba7</sys_scope>
+        <sys_update_name>sp_widget_328a88af47782110709b016a436d43dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-09 16:40:14</sys_updated_on>
+        <template><![CDATA[<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<title>Pizza</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+</style>
+<body>
+<!-- Start Content -->
+<div id="home" class="w3-content">
+
+<!-- Contact -->
+<img id="contact" src="https://www.w3schools.com/w3css/map.jpg" class="w3-image w3-greyscale" alt="Map" style="width:100%">
+<div class="w3-container w3-blue-grey w3-grayscale-min w3-xlarge w3-padding-top-32">
+<h1 class="w3-center w3-jumbo">Contact</h1>
+<p>Find us at some address at some place or call us at 05050515-122330</p>
+<p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+<p class="w3-xxlarge"><b>Reserve</b> a table, ask for today's special or just send us a message:</p>
+<form action="/action_page.php" target="_blank">
+<p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+<p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
+<p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+<p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+<p><button class="w3-button w3-light-grey w3-block" type="submit">SEND MESSAGE</button></p>
+</form>
+
+</div>
+
+<!-- End Content -->
+</div>
+</body>
+</html>]]></template>
+    </sp_widget>
+</record_update>
